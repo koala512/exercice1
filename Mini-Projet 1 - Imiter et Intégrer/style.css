@@ -1,0 +1,92 @@
+body {
+    line-height: 1.5;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(47, 72, 88);
+    color: #fff;
+}
+
+.header * {
+    margin: 8px 0;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+.sub_title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.sub_desc {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+}
+
+.avatar {
+    grid-row: 1 / 4;
+    padding: 0 32px;
+    align-self: flex-end;
+}
+
+.content {
+    display: flex;
+}
+
+li
+{
+  list-style: none;
+
+}
+.umpa
+{
+    color: rgb(58, 87, 104);
+    font-size: 1.2rem;
+
+}
+aside
+{
+    display: inline-block;
+    background-color: rgb(134, 187, 216) ;
+    padding: 0 32px 0 16px;
+    border-top: rgb(159, 230, 148) solid 2px;
+}
+
+.article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.article_title {
+    font-size: 2rem;
+    text-align: center;
+    margin: .5em 0;
+}
+
+section {
+    padding: 0 2rem;
+    width: 48%;
+}
+
+.section_title {
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(159, 230, 148);
+}
+
+.section_info {
+    font-style: italic;
+}
+
+.section_desc {
+    margin: 0;
+}
