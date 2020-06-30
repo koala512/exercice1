@@ -1,0 +1,26 @@
+h2
+{
+    text-align: center;
+}
+.gauche
+{
+    text-align: left;
+}
+.droite
+{
+    text-align: right;
+}
+button
+{   
+    background-color: blue;
+    color: white;
+    margin:0 42%  0 42%;
+}
+
+#layout
+{
+    color: white;
+    background-color: black;
+    width: 500px;
+    padding: 5px;
+}
