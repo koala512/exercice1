@@ -1,0 +1,10 @@
+.header
+{
+    background-image: url("ciel.jpg");
+    padding: 10px ;
+}
+h1,p
+{
+    text-align: center;
+    color: aliceblue;
+}

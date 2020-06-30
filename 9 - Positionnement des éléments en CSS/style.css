@@ -1,0 +1,30 @@
+
+/*Indications
+* Le block1 doit être centré horizontalement dans la page.
+* Placer le block2 (classe "details") par rapport à son conteneur block1: à 80px du gauche et 100px du haut.
+* Fixer l’élément possédant la classe "fix" en bas à droite de la fenêtre du navigateur.
+
+Il ne faut pas toucher au code HTML pour réaliser cet exercice.*/
+
+.article
+{
+    background-color: lightgrey;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.details
+{
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    background-color: blue;
+    border: 1px solid black;
+}
+.fix
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: cornflowerblue;
+}

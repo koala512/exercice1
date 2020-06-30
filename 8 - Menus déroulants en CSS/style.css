@@ -1,0 +1,47 @@
+li
+{
+	list-style: none;
+
+}
+ul
+{
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+.menu
+{
+	display: flex;
+	justify-content: center;
+}
+ .menu-sub
+ {
+	 height: 0;
+	 overflow: hidden;
+	 transition: height 200ms ease-in-out;
+	 position: relative;
+	 top: 1em;
+ }
+ .menu-item:hover .menu-sub
+ {
+	 height: 200px;
+ }
+ .menu-item a:hover
+ {
+	 color: white;
+	 background-color: skyblue;
+	 border-bottom: 1px solid steelblue ;
+ }
+.menu-item a
+{
+	background-color: grey;
+	display: inline-block;
+	
+	width: 100px;
+	text-align: center;
+	padding: 10px 0; /* vertical horizontal pour 2 valeur*/
+
+}

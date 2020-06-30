@@ -1,0 +1,27 @@
+.titre-article
+{
+    border-bottom: 1px dashed grey;
+    font-family: ;
+}
+.article
+{
+    border: 3px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 1em;
+}
+.detail-article
+{
+    text-align: justify;
+    color:#7b7b7b ;
+    display:flex;
+    flex-direction: column;
+    }
+a
+ {
+    margin:auto;
+    text-decoration: none; 
+    border-radius: 200px/50px;
+    background:purple ;
+    color: white;
+    padding: 10px ;
+  }
