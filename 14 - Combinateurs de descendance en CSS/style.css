@@ -1,0 +1,15 @@
+p {
+  padding-left: 20px;
+}
+
+.article ul p {
+  color: green;
+}
+
+.article h2 + p {
+ background-color: yellow;
+}
+
+.article h2 ~ p {
+ border: 1px solid black;
+}
